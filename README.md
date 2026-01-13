@@ -1,6 +1,6 @@
 # Your startup name here
 
-[!] This is a test :)
+
 
 [My Notes](notes.md)
 
@@ -52,12 +52,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Build the base for the website
+- **CSS** - Make the website pretty
+- **React** - Create a bundle of JavaScript, HTML and CSS code to send to the browser
+- **Service** - Run JS code and communicate with the database
+- **DB/Login** - Authentify users
+- **WebSocket** - Connect users together using a server
 
 ## 🚀 AWS deliverable
 
