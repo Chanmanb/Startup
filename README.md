@@ -44,9 +44,9 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Editing other users' pages
+- Messaging
+- Friends list
 
 ### Technologies
 
