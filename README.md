@@ -30,12 +30,17 @@ How the friend's page might look:
 
 ```mermaid
 sequenceDiagram
-    actor You
+    actor Mike
+    actor Jane
+    actor Phill
     actor Website
-    actor Gandolf
-    You->>Website: Replace this with your design
-    You->>Gandolf: Learning
-    Gandolf->>Website: disbelief 
+    Mike->>Website: Edit on Phill
+    Website -->>Jane: Edit on Phill
+    Website -->>Phill: Edit on Phill
+    Phill->Website: Cleaning page
+    Website -->>Mike: Cleaning Page
+    Website -->>Jane: Cleaning Page
+    
 ```
 
 ### Key features
