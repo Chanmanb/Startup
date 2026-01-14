@@ -20,7 +20,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Description of how you will use each technology
 - [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -63,12 +63,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Build the base for the website
-- **CSS** - Make the website pretty
+- **HTML** - Build the basic structure of the website
+- **CSS** - Make the website pretty and disign
 - **React** - Create a bundle of JavaScript, HTML and CSS code to send to the browser
-- **Service** - Run JS code and communicate with the database
-- **DB/Login** - Authentify users
-- **WebSocket** - Connect users together using a server
+- **Service** - Run JS code and communicate with the database for things like login, posts, pesters, and profiles
+- **DB/Login** - Authenicate users and store user data like pages 
+- **WebSocket** - Connect users for chats and same-time page viewing
 
 ## 🚀 AWS deliverable
 
