@@ -33,13 +33,12 @@ sequenceDiagram
     actor Mike
     actor Jane
     actor Phill
-    actor Website
-    Mike->>Website: Edit on Phill
-    Website -->>Jane: Edit on Phill
-    Website -->>Phill: Edit on Phill
-    Phill->>Website: Cleaning page
-    Website -->>Mike: Cleaning Page
-    Website -->>Jane: Cleaning Page
+    Mike->>Server: Edit on Phill
+    Server -->>Jane: Edit on Phill
+    Server -->>Phill: Edit on Phill
+    Phill->>Server: Cleaning page
+    Server -->>Mike: Cleaning Page
+    Server -->>Jane: Cleaning Page
     
 ```
 
