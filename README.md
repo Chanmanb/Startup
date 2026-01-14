@@ -18,14 +18,14 @@ I will make an application where users can go onto each other's pages and mess a
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
+- [x] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
 - [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Messing with friends is pretty fun, whether it's hiding random objects that they'll find later or flipping all of the furniture in their livingroom over. Being on either end of a practicle joke is where the best memories come from, and in a world so isolated because of social media, we need good times with friends more and more, especially good times that don't necessarily require direct interaction. That's the beauty of PagePester. You can mess with your friend's page and share a laugh. No need to live close, or even in the same country, you can start really deepening your friendships the good old fashion way. Pestering them.
 
 ### Design
 
