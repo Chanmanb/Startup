@@ -39,7 +39,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 sequenceDiagram
     actor You
     actor Website
+    actor Gandolf
     You->>Website: Replace this with your design
+    You->>Gandolf: Learning
+    Gandolf->>Website: disbelief 
 ```
 
 ### Key features
