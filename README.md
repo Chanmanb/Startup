@@ -29,7 +29,12 @@ Messing with friends is pretty fun, whether it's hiding random objects that they
 
 ### Design
 
+What a friend might want their page to look like:
 ![Design image](Example.png)
+
+How the friend's page might look:
+![Design image](Example2.png)
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
