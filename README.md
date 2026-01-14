@@ -37,7 +37,7 @@ sequenceDiagram
     Mike->>Website: Edit on Phill
     Website -->>Jane: Edit on Phill
     Website -->>Phill: Edit on Phill
-    Phill->Website: Cleaning page
+    Phill->>Website: Cleaning page
     Website -->>Mike: Cleaning Page
     Website -->>Jane: Cleaning Page
     
