@@ -1,6 +1,4 @@
-# Your startup name here
-
-PagePester
+# PagePester
 
 [My Notes](notes.md)
 
