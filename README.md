@@ -19,7 +19,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 - [ ] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
-- [ ] Description of key features
+- [x] Description of key features
 - [ ] Description of how you will use each technology
 - [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
@@ -50,9 +50,14 @@ sequenceDiagram
 
 ### Key features
 
-- Editing other users' pages
+- Posting
+- Friends
+- Adding additional hastags to a friend's post
+- Drawing on a friend's post
+- Adding stickers to a friend's page anonymously
+- Commenting on posts (prank free)
+- Tasks required to undo pranks
 - Messaging
-- Friends list
 
 ### Technologies
 
