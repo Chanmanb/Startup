@@ -74,15 +74,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [X] **HTML pages** - I have completed this part of the deliverable.
-- [x] **Proper HTML element usage** - I have completed this part of the deliverable.
-- [x] **Links** - I have completed this part of the deliverable.
-- [X] **Text** - I have completed this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [x] **Images** - I have completed this part of the deliverable.
-- [x] **Login placeholder** - I have completed this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [X] **HTML pages** - I have four html pages (Home, Friends, About and Feed)
+- [x] **Proper HTML element usage** - I have divs, spans, buttons, a picture, nav, and headers.
+- [x] **Links** - Navigation bar uses links as does the github link
+- [X] **Text** - There is text, prominantly in the about tab and posts on the feed.
+- [X] **3rd party API placeholder** - Login capabilities.
+- [x] **Images** - There is an image in one of the posts in the feed.
+- [x] **Login placeholder** - Right on the homepage (sends you to feed).
+- [X] **DB data placeholder** - Posts and pages a swell as accounts.
+- [X] **WebSocket placeholder** - On the friends tab, the Online/Offline categories would update in real time.
 
 ## 🚀 CSS deliverable
 
