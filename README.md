@@ -78,7 +78,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Proper HTML element usage** - I have divs, spans, buttons, a picture, nav, and headers.
 - [x] **Links** - Navigation bar uses links as does the github link
 - [X] **Text** - There is text, prominantly in the about tab and posts on the feed.
-- [X] **3rd party API placeholder** - Login capabilities.
+- [X] **3rd party API placeholder** - Importing fonts from the web.
 - [x] **Images** - There is an image in one of the posts in the feed.
 - [x] **Login placeholder** - Right on the homepage (sends you to feed).
 - [X] **DB data placeholder** - Posts and pages a swell as accounts.
