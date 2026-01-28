@@ -19,3 +19,8 @@ h2 {
 a {
     color: #FFFF00
 }
+.post {
+    width: 500px;
+    height: 300px;
+    background-color: #d923c0;
+}
