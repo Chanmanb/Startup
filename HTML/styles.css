@@ -133,3 +133,68 @@ a {
     align-items: center;
     border-top: 2px solid white;
 }
+
+#login-span {
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FF00FF
+}
+
+#login-box {
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    width:500px;
+    background-color: white;
+}
+
+/* #login-box span{
+    color: #FF00FF;
+} */
+
+#login-text {
+    font-size: 400%;
+    color: #FF00FF;
+    flex: 4;
+}
+
+#username {
+    flex: 1;
+}
+
+#password {
+    flex: 1;
+}
+
+.login-type {
+    font-size: 200%;
+    color: #880088;
+    flex: 2;
+}
+
+#email-input {
+    width: 250px;
+    height: 50px;
+    font-size: 18pt;
+}
+
+#submission-zone {
+    display: flex;
+    align-items: row;
+    padding: 30px;
+    flex: 1;
+}
+#submission-zone button {
+    flex: 5;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 60px;
+    font-size: 18pt;
+}
+
+#submission-zone span {
+    flex: 1;
+}

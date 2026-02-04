@@ -18,19 +18,22 @@
             </nav>
         </header>
         <main>
-            <h2>Please Login or Sign Up or Leave!</h2>
-            <form method="get" action="feed.html">
-                <div>
-                    <span>Email</span>
-                    <input type="text" placeholder="Email@provider.gov">
-                </div>
-                <div>
-                    <span>Password: </span>
-                    <input type="password" placeholder="12345">
-                </div>
-                <button type="submit">Login</button>
-                <button type="submit">Create account</button>
-            </form>
+            <div id="login-span">
+                <span id=login-box>
+                    <span id="login-text">Please Login or Sign Up or Leave!</span>
+                    <span id="username">
+                        <div class="login-type">Email <input id="email-input" type="text" placeholder="Email@provider.gov"></div>
+                    </span>
+                    <span id="password">
+                    <div class="login-type">Password <input id="email-input" type="password" placeholder = "***************"></div>
+                    </span>
+                    <form id="submission-zone" method="get" action="feed.html">
+                        <button type="submit">Login</button>
+                        <span></span>
+                        <button type="submit">Sign up</button>
+                    </form>
+                </span>
+            </div>
             <hr>
         </main>
         <footer>
