@@ -88,12 +88,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
+- [X] **Visually appealing colors and layout. No overflowing elements.** - It took forever, but it is now styled to my liking. It might not be pretty, but that's what I want.
 - [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [X] **All visual elements styled using CSS** - I don't know how else I would do this
+- [X] **Responsive to window resizing using flexbox and/or grid display** - This was my default way to do this
+- [x] **Use of a imported font** - I imported sans-sarif in the body section of styles.css
+- [X] **Use of different types of selectors including element, class, ID, and pseudo selectors** - They are littered all throughout the code.
 
 ## 🚀 React part 1: Routing deliverable
 
