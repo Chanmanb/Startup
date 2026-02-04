@@ -97,3 +97,37 @@ a {
     padding: 0px;
     height: 45.5 px;
 }
+
+#sellout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sellout-kid {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    height: 100px;
+    width: 150px;
+}
+
+.sellout-section {
+    flex: 1;
+    display: grid;
+    align-items: center;
+    background-color: #DDDDDD;
+    color: #333333;
+    text-align: center;
+}
+
+.sellout-section a {
+    color: #000000;
+}
+
+#git {
+    flex: 1;
+    display: grid;
+    align-items: center;
+    border-top: 2px solid white;
+}
