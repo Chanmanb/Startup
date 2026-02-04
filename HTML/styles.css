@@ -85,7 +85,13 @@ a {
     height: 45.5px;
     font-size: 150%;
     background-color: #993477;
+    border-bottom: 3px solid #FFFFFF;
 }
+
+.nav-option:hover {
+    background-color: #a14683;
+}
+
 #navigator-nav {
     align-items: center;
     padding: 0px;
