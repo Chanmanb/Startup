@@ -1,5 +1,5 @@
 * {
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 header {
@@ -44,16 +44,13 @@ h1 {
 }
 
 h2 {
-    color: #FFFFFF;
-    font-size: 200%;
+    color: #3388ff;
+    font-size: 300%;
+    text-align: center;
+
 }
 a {
     color: #FFFF00
-}
-.post {
-    width: 500px;
-    height: 300px;
-    background-color: #d923c0;
 }
 
 @keyframes demo {
@@ -183,7 +180,7 @@ a {
 
 #submission-zone {
     display: flex;
-    align-items: row;
+    align-items: center;
     padding: 30px;
     flex: 1;
 }
@@ -197,4 +194,53 @@ a {
 
 #submission-zone span {
     flex: 1;
+}
+
+#posts-div {
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+}
+
+#posts-div .side {
+    flex: 1;
+}
+
+#posts-column {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d923c0;
+    margin: 20px;
+}
+
+.user {
+    padding-left: 10px;
+    font-size: 15pt;
+}
+
+.post-text {
+    padding: 20px;
+}
+
+.post-pic-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-pic {
+    height: 200px;
+}
+
+.post-pic-div span {
+    flex:1;
+    text-align: center;
 }
