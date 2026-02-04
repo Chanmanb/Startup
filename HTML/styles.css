@@ -263,3 +263,16 @@ a {
 .friend {
     color:#FF00FF;
 }
+
+#summary-div {
+    display: flex;
+    flex-direction: columns;
+}
+
+.summary-margin {
+    flex: 1;
+}
+
+#summary {
+    flex:7;
+}
