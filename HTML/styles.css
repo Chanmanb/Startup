@@ -35,10 +35,14 @@ h1 {
     color: #3388ff;
     font-size: 400%;
     text-align: center;
-    margin-top: 0px;
     animation-name: demo;
     animation-duration: 2s;
+    height: 125px;
+    margin-bottom: 0px;
+    display: grid;
+    place-items: center;
 }
+
 h2 {
     color: #FFFFFF;
     font-size: 200%;
@@ -80,6 +84,7 @@ a {
     border: 2px solid #333333;
     height: 45.5px;
     font-size: 150%;
+    background-color: #993477;
 }
 #navigator-nav {
     align-items: center;
