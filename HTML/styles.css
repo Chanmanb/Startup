@@ -5,7 +5,7 @@
 header {
     padding: 0;
     margin-top: 0px;
-    border-radius: 0;
+    /* border-radius: 0; */
     background-color: #5b295c;
     margin-bottom: 0;
 }
@@ -19,7 +19,7 @@ menu {
 body {
     background-color: #4818A6;
     font-family: sans-serif;
-    border-radius: 0;
+    /* border-radius: 0; */
     margin: 0;
 }
 p {
@@ -74,13 +74,15 @@ a {
 .nav-option {
     flex: 1;
     text-align: center;
+    display: grid;
+    place-items: center;
     border-color: #000000;
-    border-top-width: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    border: 2px solid #333333;
+    height: 45.5px;
+    font-size: 150%;
 }
 #navigator-nav {
     align-items: center;
-    border: 10px;
-    padding: 10px;
+    padding: 0px;
+    height: 45.5 px;
 }
