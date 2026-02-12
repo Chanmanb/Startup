@@ -101,7 +101,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 - [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
 - [X] **Components** - I did what was asked of me in the CodePen
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [X] **Router** - I did the CodePen
 
 ## 🚀 React part 2: Reactivity deliverable
 
