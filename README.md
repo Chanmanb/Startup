@@ -99,9 +99,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [X] **Bundled using Vite** - Vite is being used to run the jsx
-- [X] **Components** - I did what was asked of me in the CodePen
-- [X] **Router** - I have successfully Routed my startup
+- [X] **Bundled using Vite** - Vite is being used to run the jsx and to make it into js.
+- [X] **Components** - Componants are used to render the different options on the navigation bar.
+- [X] **Router** - I have successfully Routed my startup, using componants to render them.
 
 ## 🚀 React part 2: Reactivity deliverable
 
