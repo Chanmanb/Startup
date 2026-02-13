@@ -14,7 +14,7 @@ export default function App() {
             <div><h1 id="Site-name">PesterPage</h1></div>
             <nav id="navigator-nav">
                 <div id="navigator">
-                    <div className="nav-option"><NavLink to="login">Home</NavLink></div>
+                    <div className="nav-option"><NavLink to="/">Home</NavLink></div>
                     <div className="nav-option"><NavLink to="feed">Feed</NavLink></div>
                     <div className="nav-option"><NavLink to="friends">Freinds</NavLink></div>
                     <div className="nav-option"><NavLink to="about">About</NavLink></div>
