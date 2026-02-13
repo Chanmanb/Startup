@@ -35,7 +35,7 @@ export default function App() {
             <span id="sellout">
                 <div id="sellout-kid">
                 <div className="sellout-section">Chandler Brown</div>
-                <div className="sellout-section" id="git"><a href="https://github.com/Chanmanb?tab=repositories" />Github account (please subscribe)</div>
+                <div className="sellout-section" id="git"><a href="https://github.com/Chanmanb?tab=repositories" target="_blank">Github account </a>(please subscribe)</div>
                 </div>
             </span>
         </footer></div>
