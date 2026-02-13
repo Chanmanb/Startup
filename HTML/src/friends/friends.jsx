@@ -14,7 +14,6 @@ export function Friends() {
             <div className="list-of-friends">
                 <span className="friend">Bob</span>
             </div>
-            <hr />
         </main>
   );
 }

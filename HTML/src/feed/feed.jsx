@@ -21,7 +21,6 @@ export function Feed() {
                       <span className="side"></span>
                   </div>
               </div>
-            <hr />
         </main>
   );
 }

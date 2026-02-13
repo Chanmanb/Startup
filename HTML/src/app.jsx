@@ -10,7 +10,7 @@ import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 
 export default function App() {
   return <BrowserRouter>
-  <div className="page"><header>
+  <div><header>
             <div><h1 id="Site-name">PesterPage</h1></div>
             <nav id="navigator-nav">
                 <div id="navigator">
@@ -29,7 +29,8 @@ export default function App() {
             <Route path='/About' element={<About />} exact />
             <Route path='*' element={<NotFound />} exact />
         </Routes>
-
+        
+        <hr />
         <footer className="app">
             <span id="sellout">
                 <div id="sellout-kid">

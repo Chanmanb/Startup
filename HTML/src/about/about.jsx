@@ -10,7 +10,6 @@ export function About() {
                 <span className="summary-margin"></span>
             </div>
             <p></p>
-            <hr />
         </main>
   );
 }

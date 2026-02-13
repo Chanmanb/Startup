@@ -19,7 +19,6 @@ export function Login() {
                     </form>
                 </span>
             </div>
-            <hr />
         </main>
   );
 }
