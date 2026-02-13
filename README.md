@@ -99,9 +99,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
+- [X] **Bundled using Vite** - Vite is being used to run the jsx
 - [X] **Components** - I did what was asked of me in the CodePen
-- [X] **Router** - I did the CodePen
+- [X] **Router** - I have successfully Routed my startup
 
 ## 🚀 React part 2: Reactivity deliverable
 

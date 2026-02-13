@@ -30,7 +30,7 @@ export default function App() {
             <Route path='*' element={<NotFound />} exact />
         </Routes>
 
-        <footer>
+        <footer className="app">
             <span id="sellout">
                 <div id="sellout-kid">
                 <div className="sellout-section">Chandler Brown</div>
