@@ -10,7 +10,7 @@ export function Login() {
                         <div className="login-type">Email <input id="email-input" type="text" placeholder="Email@provider.gov" /></div>
                     </span>
                     <span id="password">
-                    <div className="login-type">Password <input id="email-input" type="password" placeholder = "***************" /></div>
+                    <div className="login-type">Password <input id="password-input" type="password" placeholder = "***************" /></div>
                     </span>
                     <form id="submission-zone" method="get" action="feed.html">
                         <button type="button" className="btn btn-primary">Login</button>

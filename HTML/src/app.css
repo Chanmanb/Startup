@@ -158,10 +158,6 @@ a {
     background-color: white;
 }
 
-/* #login-box span{
-    color: #FF00FF;
-} */
-
 #login-text {
     font-size: 400%;
     color: #FF00FF;
@@ -183,6 +179,12 @@ a {
 }
 
 #email-input {
+    width: 250px;
+    height: 50px;
+    font-size: 18pt;
+}
+
+#password-input {
     width: 250px;
     height: 50px;
     font-size: 18pt;
