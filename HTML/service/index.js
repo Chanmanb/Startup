@@ -35,9 +35,11 @@ exRouter.post('auth/create', async (req, res) => {
     }
 });
 
-function create_user(user_name, password) {
+async function create_user(user_nam, password) {
     const hashed = await bcrypt.hash(password, 10);
-    
+    const user = {user_name: user_nam, password: hashed, token: uuid.v4()};
+    users.push(user);
+    return user;
 }
 
 
