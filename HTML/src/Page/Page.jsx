@@ -23,7 +23,7 @@ export function Page() {
     }
     function drag_float(e) {
         if (drag_flt) {
-            set_float_pos({x: e.clientX - 50, y: e.clientY - 50});
+            set_float_pos({x: e.clientX - 100, y: e.clientY - 100});
         }
     }
 
@@ -39,12 +39,19 @@ export function Page() {
                               <span className="user" onClick={shrink} style={{fontSize: post_font_size}}>Bob</span>
                               <span className="post-text">I went to the beach today guys!</span>
                           </div>
-                          <div className="post" style={{
+                          <div style={{
                             position: "absolute",
                             left: float_pos.x, 
                             top: float_pos.y,
                             cursor: "grab",
-                            userSelect: "none"
+                            userSelect: "none",
+                            padding: "30px",
+                            display: "flex",
+                            "background-color": "#d923c0",
+                            margin: "20px",
+                            width: "400px",
+
+
                             }} onMouseMove={drag_float} onMouseDown={mouse_down_on_floater} onMouseUp={mouse_up_on_floater}>
                               <span className="user">Tim</span>
                               <span className="post-text">I really don't like Bob, everyone, he keeps on telling me that I'm dumb even though I know I'm not dumb, but it still hurts D:</span>
