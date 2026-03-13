@@ -6,6 +6,7 @@ import { Login } from './login/login';
 import { Friends } from './friends/friends';
 import { Feed } from './feed/feed';
 import { About } from './about/about';
+import { Page } from './Page/Page';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
             <nav id="navigator-nav">
                 <div id="navigator">
                     <div className="nav-option"><NavLink to="/">Home</NavLink></div>
+                    <div className="nav-option"><NavLink to="Page">Page</NavLink></div>
                     <div className="nav-option"><NavLink to="feed">Feed</NavLink></div>
                     <div className="nav-option"><NavLink to="friends">Freinds</NavLink></div>
                     <div className="nav-option"><NavLink to="about">About</NavLink></div>
@@ -28,6 +30,7 @@ export default function App() {
             <Route path='/Friends' element={<Friends />} exact />
             <Route path='/About' element={<About />} exact />
             <Route path='*' element={<NotFound />} exact />
+            <Route path='/Page' element={<Page />} exact />
         </Routes>
         
         <hr />
