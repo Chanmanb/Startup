@@ -10,6 +10,14 @@ const authCookieName = 'token';
 let users = [];
 let locations = {};
 
+//json body porsing
+app.use(express.json());
+
+// gets cookies to work
+app.use(cookieParser());
+
+//  sets up the public directory
+app.use(express.Router("public"));
 
 
 // listening to port 3000
