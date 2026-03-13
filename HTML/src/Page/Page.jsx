@@ -1,25 +1,32 @@
 import React from 'react';
 
 export function Page() {
-    const [title_color, set_title_color] = React.useState('#000000')
+    const [title_color, set_title_color] = React.useState(localStorage.getItem("title_color") || '#000000')
     // let title_color = "#000000";
 
     function click_title() {
-        set_title_color(`rgb(${Math.random()*192}, ${Math.random()*255}, ${Math.random()*64})`);
+        let newi = `rgb(${Math.random()*192}, ${Math.random()*255}, ${Math.random()*64})`;
+        set_title_color(newi);
+        localStorage.setItem("title_color", newi);
+
     }
 
-    const [post_font_size, set_post_font_size] = React.useState('15pt');
+    const [post_font_size, set_post_font_size] = React.useState(parseInt(localStorage.getItem('username_size')) || '15pt');
     function shrink() {
-        set_post_font_size(5 + Math.random()*25)
+        let newi = 5 + Math.random()*25;
+        set_post_font_size(newi);
+        localStorage.setItem("username_size", newi);
     }
 
-    const [float_pos, set_float_pos] = React.useState({x: 30, y: 30});
+    const [float_pos, set_float_pos] = React.useState({ x: parseInt( localStorage.getItem('floaterx') ),y: parseInt(localStorage.getItem('floatery'))} || {x: 30, y: 180});
     const [drag_flt, set_drag_flt] = React.useState(false);
     function mouse_down_on_floater() {
         set_drag_flt(true);
     }
     function mouse_up_on_floater() {
         set_drag_flt(false);
+        localStorage.setItem("floaterx", float_pos.x);
+        localStorage.setItem("floatery", float_pos.y);
     }
     function drag_float(e) {
         if (drag_flt) {

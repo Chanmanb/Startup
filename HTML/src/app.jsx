@@ -4,7 +4,7 @@ import './app.css';
 
 import { Login } from './login/login';
 import { Friends } from './friends/friends';
-import { Feed } from './feed/feed';
+// import { Feed } from './feed/feed';
 import { About } from './about/about';
 import { Page } from './Page/Page';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
@@ -17,7 +17,7 @@ export default function App() {
                 <div id="navigator">
                     <div className="nav-option"><NavLink to="/">Home</NavLink></div>
                     <div className="nav-option"><NavLink to="Page">Page</NavLink></div>
-                    <div className="nav-option"><NavLink to="feed">Feed</NavLink></div>
+                    {/* <div className="nav-option"><NavLink to="feed">Feed</NavLink></div> */}
                     <div className="nav-option"><NavLink to="friends">Freinds</NavLink></div>
                     <div className="nav-option"><NavLink to="about">About</NavLink></div>
                 </div>
@@ -26,7 +26,7 @@ export default function App() {
 
         <Routes>
             <Route path='/' element={<Login />} exact />
-            <Route path='/Feed' element={<Feed />} exact />
+            {/* <Route path='/Feed' element={<Feed />} exact /> */}
             <Route path='/Friends' element={<Friends />} exact />
             <Route path='/About' element={<About />} exact />
             <Route path='*' element={<NotFound />} exact />
