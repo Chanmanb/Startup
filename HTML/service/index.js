@@ -42,6 +42,19 @@ async function create_user(user_nam, password) {
     return user;
 }
 
+async function search_user(field, value) {
+    if (!value) {return null;}
+
+    return users.find((u) => u[field] === value );
+}
+
+
+
+
+exRouter.post("auth/login", async (req, res) => {
+    const user = await search_user('user_name', req.body.user_name);
+
+})
 
 
 // listening to port 3000
