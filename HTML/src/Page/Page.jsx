@@ -54,7 +54,7 @@ export function Page() {
                             userSelect: "none",
                             padding: "30px",
                             display: "flex",
-                            "background-color": "#d923c0",
+                            backgroundColor: "#d923c0",
                             margin: "20px",
                             width: "400px",
                             }} onMouseMove={drag_float} onMouseDown={mouse_down_on_floater} onMouseUp={mouse_up_on_floater}>
