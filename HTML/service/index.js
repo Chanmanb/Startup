@@ -10,3 +10,9 @@ const authCookieName = 'token';
 let users = [];
 let locations = {};
 
+
+
+// listening to port 3000
+app.listen(port, () => {
+  console.log(`Listening to port 3000`);
+});
