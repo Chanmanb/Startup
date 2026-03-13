@@ -30,13 +30,13 @@ export function Page() {
 
   return (
           <main className="app">
-            <h2 style={{color: title_color}} onClick={click_title}>The PesterPage</h2>
+            <h2 style={{color: title_color, cursor: "pointer"}} onClick={click_title}>The PesterPage</h2>
               <div className="app">
                   <div id="posts-div">
                       <span className="side"></span>
                       <span id="posts-column">
                           <div className="post">
-                              <span className="user" onClick={shrink} style={{fontSize: post_font_size}}>Bob</span>
+                              <span className="user" onClick={shrink} style={{fontSize: post_font_size, cursor: "pointer"}}>Bob</span>
                               <span className="post-text">I went to the beach today guys!</span>
                           </div>
                           <div style={{
@@ -50,12 +50,10 @@ export function Page() {
                             "background-color": "#d923c0",
                             margin: "20px",
                             width: "400px",
-
-
                             }} onMouseMove={drag_float} onMouseDown={mouse_down_on_floater} onMouseUp={mouse_up_on_floater}>
                               <span className="user">Tim</span>
                               <span className="post-text">I really don't like Bob, everyone, he keeps on telling me that I'm dumb even though I know I'm not dumb, but it still hurts D:</span>
-                              <div className="post-pic-div"><span></span><span><img className="post-pic" src="https://img.freepik.com/free-vector/sad-overweight-man-casual-clothing_1308-182471.jpg?semt=ais_hybrid&w=740&q=80" /></span><span></span></div>
+                              <div className="post-pic-div"><span></span><span><img draggable={false} className="post-pic" src="https://img.freepik.com/free-vector/sad-overweight-man-casual-clothing_1308-182471.jpg?semt=ais_hybrid&w=740&q=80" /></span><span></span></div>
                           </div>
                       </span>
                       <span className="side"></span>
