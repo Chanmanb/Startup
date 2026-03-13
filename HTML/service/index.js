@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 //  sets up the public directory
-app.use(express.Router("public"));
+app.use(express.static("public"));
 
 
 // listening to port 3000
